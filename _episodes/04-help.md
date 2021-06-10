@@ -1,7 +1,7 @@
 ---
 title: "Finding help on R"
-teaching: 50
-exercises: 0
+teaching: 5
+exercises: 5
 questions:
 - "How can I find R help?"
 objectives:
