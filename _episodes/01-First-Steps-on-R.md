@@ -8,6 +8,11 @@ questions:
 
 objectives:
 - "Understand why R is important."
+- "Describe the purpose and use of each pane in the RStudio IDE"
+- "Locate buttons and options in the RStudio IDE"
+- "Define a variable"
+- "Assign data to a variable"
+
 keypoints:
 - "RStudio is useful tool for data-management."
 ---
