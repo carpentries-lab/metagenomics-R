@@ -1,7 +1,7 @@
 ---
 title: "R datatypes"
-teaching: 50
-exercises: 0
+teaching: 10
+exercises: 5
 questions:
 - "What types of data does the R language has?"
 objectives:
