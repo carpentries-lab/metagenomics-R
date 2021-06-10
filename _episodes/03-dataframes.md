@@ -1,7 +1,7 @@
 ---
 title: "Dataframes manipulation"
-teaching: 50
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
 - "Data-frames. What they are and how to manage them? "
 objectives:
