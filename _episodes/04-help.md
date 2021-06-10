@@ -1,5 +1,5 @@
 ---
-title: "First Steps on R"
+title: "Finding help on R"
 teaching: 50
 exercises: 0
 questions:
