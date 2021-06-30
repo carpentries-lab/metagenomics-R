@@ -28,17 +28,19 @@ keypoints:
 ### What is R and what can it be used for?
 
 "R" is used to refer to a programming language and the 
-software that reads and interprets what is it on the 
+software that reads and interprets the instructions written on the 
 scripts of this language. It is specialized on statistical 
 computing and graphics. RStudio is the most popular program to write
 scripts and interact with the R software.
 
-R uses a series of written commands, that is great, believe us! When you rely on clicking, 
-pointing, and remembering where and why to point here or click there, mistakes
-are prone to occur. Moreover, if you manage to get more data, it is easier to just
-*re-run* your script to obtain results. Also, working with scripts makes the steps 
-you follow for your analysis clear and shareable. Here are some of the advantages
-for working with R:
+R uses a series of written commands, that is great, believe us! 
+When you rely on clicking, pointing, and remembering where and 
+why to point here or click there, mistakes are prone to occur. 
+Moreover, if you manage to get more data, it is easier to just
+*re-run* your script to obtain results. Also, working with scripts 
+makes the steps you follow for your analysis clear and shareable. 
+Here are some of the advantages for working with R:  
+
 - R code is reproducible
 - R produces high-quality graphics
 - R has a large community
