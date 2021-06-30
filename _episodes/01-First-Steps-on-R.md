@@ -8,13 +8,15 @@ questions:
 
 objectives:
 - "Understand why R is important."
-- "Describe the purpose and use of each pane in the RStudio IDE"
+- "Describe the purpose and use of each panel in the RStudio IDE"
 - "Locate buttons and options in the RStudio IDE"
 - "Define a variable"
 - "Assign data to a variable"
 
 keypoints:
-- "RStudio is useful tool for data-management."
+- "R is a programming language"
+- "RStudio is useful tool for script writting and data-management."
+- "A variable can temporarily store data."
 ---
 
 # RStudio: First steps of a wonderful journey 
@@ -25,9 +27,10 @@ keypoints:
 
 ### What is R and what can it be used for?
 
-"R" is used to refer to a programming language and the software that reads and 
-interprets what is it on the scripts of this language. It is specialized on statistical computing and graphics. 
-RStudio is the most popular program to write
+"R" is used to refer to a programming language and the 
+software that reads and interprets what is it on the 
+scripts of this language. It is specialized on statistical 
+computing and graphics. RStudio is the most popular program to write
 scripts and interact with the R software.
 
 R uses a series of written commands, that is great, believe us! When you rely on clicking, 
