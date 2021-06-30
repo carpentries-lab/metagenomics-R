@@ -105,14 +105,14 @@ For example, let's do some math and save it in R objects. We can store values in
 ussing the assignment operator `<-`:
 ~~~ 
 > 4+3
-> suma <- 4+3
-> resta <- 2+1
-> total <- suma -resta
+> addition <- 4+3
+> subtraction <- 2+1
+> total <- addition -subtraction
 > total
 ~~~
 {: .language-r}
 
-What would happend if you tap `ctrl` + `l`? Without the lesson page, can you remember what numbers the sum is made of in the variable `suma`?.
+What would happend if you tap `ctrl` + `l`? Without the lesson page, can you remember what numbers the sum is made of in the variable `addition`?.
 **Reproducibility** is in our minds when we program (and when we do science). For this purpose, 
 is convenient to type the commands we want to save in the script editor, and save the script periodically. 
 We can run our code lines in the script by the shortcut `ctrl` + `Enter` 
