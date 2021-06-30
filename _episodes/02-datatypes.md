@@ -15,7 +15,7 @@ We already used numbers to generate a result. But this is not the only type of d
 can manage. We can use the command `typeof()` to corroborate the data type of our object `suma`:
 
 ~~~
-> typeof(suma)
+> typeof(addition)
 ~~~
 {: .language-r}
 
@@ -50,7 +50,7 @@ There are five types of data in RStudio:
 {: .output}
 
 ~~~
-> suma == resta
+> addition == subtraction
 ~~~
 {: .language-r}
 ~~~
@@ -59,7 +59,7 @@ There are five types of data in RStudio:
 {: .output}
 
 ~~~
-> typeof(suma == resta)
+> typeof(addition == subtraction)
 ~~~
 {: .language-r}
 ~~~
