@@ -12,7 +12,7 @@ keypoints:
 ### Types of data
 
 We already used numbers to generate a result. But this is not the only type of data that RStudio 
-can manage. We can use the command `typeof()` to corroborate the data type of our object `suma`:
+can manage. We can use the command `typeof()` to corroborate the data type of our object `addition`:
 
 ~~~
 > typeof(addition)
