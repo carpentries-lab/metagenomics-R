@@ -6,23 +6,27 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 {% include gh_variables.html %}
 
-For guidelines on how to help improve our lessons and this template,
-please see [the contribution guidelines][contributing];
-for guidelines on how to set up your machine to preview changes locally,
-please see [the setup instructions]({{ page.root }}{% link setup.md %}).
+> ## Getting Started
+>
+> This lesson assumes no prior experience with the tools covered in the workshop. 
+> However, learners are expected to have some familiarity with biological concepts,
+> including how a DNA sequence looks like. Participants should bring their laptops and plan to participate actively. 
+>
+> This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given 
+> information on how
+> to log-in to the AMI during the workshop. Learners using these materials for self-directed study will need to set up their own
+> AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop Setup page](https://carpentries-incubator.github.io/metagenomics/setup.html).
+{: .prereq}
+
 
 > ## Prerequisites
 >
-> no dneede
+> no needed
 {: .prereq}
 
-> ## Ten Things You Need To Know
+> ## Things You Need To Know
 >
 > 0.  Don't panic.
-> 1.  Create a new lesson by using GitHub Import, *not* by forking.
-> 2.  Run `bin/lesson_initialize.py` *once* in a new lesson repository to set up standard files.
-> 3.  Run `make lesson-check` to check that the lesson is formatted correctly.
->     and enhancements to this documentation in this one.
 {: .checklist}
 
 {% include links.md %}
