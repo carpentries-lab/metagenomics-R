@@ -19,7 +19,7 @@ keypoints:
 - "A variable can temporarily store data."
 ---
 
-# RStudio: First steps of a wonderful journey 
+RStudio: First steps of a wonderful journey 
 *It takes courage to sail in uncharted waters*
   -Snoopy
  
