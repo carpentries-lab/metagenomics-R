@@ -42,8 +42,7 @@ each vector. Whereas, a data-frame can save vectors of different data types:
 <a href="https://user-images.githubusercontent.com/67386612/118735756-b4595500-b806-11eb-8bd6-d189b9463eca.png">
   <img src="https://user-images.githubusercontent.com/67386612/118735756-b4595500-b806-11eb-8bd6-d189b9463eca.png" />
 </a>
-
-###### Figure 3. Structure of the created data-frame.
+<em>Figure 3. Structure of the created data-frame.<em/>
 
 We can begin to explore our new object by pulling out columns by the `$` operator. In order to use it, 
 you need to write the name of your data-frame, followed by the `$` operator and the name of the column 
@@ -94,8 +93,7 @@ where the first number inside the brackets specifies the number of row, and the 
 <a href="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png">
   <img src="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png" />
 </a>
-
-###### Figure 4. Extaction of specific data in a data-frame and a matrix.
+<em>Figure 4. Extaction of specific data in a data-frame and a matrix.<em/>
 ~~~
 > musician[1,2]  # The number of pieces that Nikolai Medtner composed
 ~~~
