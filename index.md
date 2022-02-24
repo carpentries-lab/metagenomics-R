@@ -21,8 +21,9 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 > ## Prerequisites
 >
-> no needed
+> none needed
 {: .prereq}
+
 
 > ## Things You Need To Know
 >
