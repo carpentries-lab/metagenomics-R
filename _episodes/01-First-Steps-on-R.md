@@ -20,6 +20,7 @@ keypoints:
 ---
 
 RStudio: First steps of a wonderful journey 
+
 *It takes courage to sail in uncharted waters*
   -Snoopy
  
