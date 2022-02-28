@@ -94,6 +94,7 @@ where the first number inside the brackets specifies the number of row, and the 
   <img src="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png" />
 </a>
 <em>Figure 4. Extaction of specific data in a data-frame and a matrix.<em/>
+
 ~~~
 > musician[1,2]  # The number of pieces that Nikolai Medtner composed
 ~~~
@@ -103,6 +104,43 @@ where the first number inside the brackets specifies the number of row, and the 
 ~~~
 {: .output}
 
+We can also call for that data by calling the column by it's name
 
+~~~
+> musician[1,"pieces"]  # The number of pieces that Nikolai Medtner composed
+~~~
+{: .language-r}
+~~~
+[1] 722
+~~~
 
+> ## Exercise 2: 
+> 
+> Complete the lines of code to obtain the required information
+> |------------------------------+------------------------------------------------------------------------------|  
+> | **Code**                                        |     **Information required**                                     |  
+> |------------------------------+------------------------------------------------------------------------------|  
+> | > musician[-,------]                       |  Pieces composed by Shakira                                  |  
+> |------------------------------+------------------------------------------------------------------------------|  
+> | > (musician - ----)-2  | Pieces composed by all musicians if they were the double of productive (The double of their actual pieces) |   
+> |------------------------------+------------------------------------------------------------------------------|  
+> | > musician$---- <- c(-,-,-)           | Redefine the `likes` columne to make all the musicians popular!  |  
+> |------------------------------+------------------------------------------------------------------------------| 
+>
+>
+> がんばれ! (ganbate; *good luck*):
+>> ## Solution
+>> 
+>> |------------------------------+------------------------------------------------------------------------------|  
+>> | **Code**                                        |     **Information required**                                     |  
+>> |------------------------------+------------------------------------------------------------------------------|  
+>> | > musician[3,"pieces"]                       |  Pieces composed by Shakira                                  |  
+>> |------------------------------+------------------------------------------------------------------------------|  
+>> | > (musician$pieces)/2  | Pieces composed by all musicians if they were half of productive (The half of their actual pieces) |   
+>> |------------------------------+------------------------------------------------------------------------------|  
+>> | > musician$likes <- c("TRUE","TRUE","TRUE")    | Redefine the `likes` columne to make all the musicians popular!  |  
+>> |------------------------------+------------------------------------------------------------------------------| 
+>>
+> {: .solution}
+{: .challenge} 
 
