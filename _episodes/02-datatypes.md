@@ -94,3 +94,31 @@ No matter how complicated our analysis can become, all data in R will be allocat
 five data types. On their own, data types are important because we want to know "who is who, and 
 what is what". But this concept will help us learn one of the most powerful tools in R, which is 
 the manipulation of different types of data at the same time in a data-frame.
+
+> ## Exercise 1: 
+> 
+> Which type of data holds each of the next three vectors?:
+> ej1 <- c("34","147","26+7i")
+>
+> ej2 <- c(4L,12L,152L) 
+>
+> ej3 <- c(34,147,26+7i)
+> 
+> A) numerical, integer, numerical
+>
+> B) character, numerical, numerical
+>
+> C) numerical, complex, character
+>
+> D) character, integer, complex
+>
+> がんばれ! (ganbate; *good luck*):
+>> ## Solution
+>> The correct answer is D) character, integer, complex. If we use "" to define
+>> an object, R will read it as a character regardless we are typing numbers; the 
+>> capital `L` after a number, gives the indication to R to save that number as an
+>> [Integer](https://stackoverflow.com/questions/23660094/whats-the-difference-between-integer-class-and-numeric-class-in-r#:~:text=R%20handles%20the%20differences%20between,for%20you%20in%20the%20background.&text=(Putting%20capital%20'L'%20after,a%20subset%20of%20%22numeric%22.&text=Integers%20only%20go%20to%20a,numerics%20can%20be%20much%20bigger.); and each set of numbers with the letter 
+>> `i` of imaginary, gives the indication to R that this is a set of 
+>> complex numbers.
+> {: .solution}
+{: .challenge} 
