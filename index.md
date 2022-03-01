@@ -18,16 +18,12 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop Setup page](https://carpentries-incubator.github.io/metagenomics-workshop/setup.html).
 {: .prereq}
 
-
-> ## Prerequisites
->
-> none needed
-{: .prereq}
-
-
 > ## Things You Need To Know
 >
 > 0.  Don't panic.
 {: .checklist}
 
 {% include links.md %}
+
+
+This is the third lesson of the [Metagenomics Workshop](https://carpentries-incubator.github.io/metagenomics-workshop/) comprised of four lessons in total. 
