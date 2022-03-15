@@ -5,11 +5,11 @@
 
 # Introduction to R for metagenomics
 
-An introduction to the R for people working with metagenomics data. This lesson is part of the [Data Carpentry Genomics Workshop](http://www.datacarpentry.org/genomics-workshop/). Please see http://www.datacarpentry.org/shell-genomics/ for a rendered version of this material.
+An introduction to the R for people working with metagenomics data. This lesson is part of the [Metagenomics Workshop](https://carpentries-incubator.github.io/metagenomics-workshop/).
 
 ## Contribution
 
-Make a suggestion or correct an error by [raising an Issue](https://github.com/datacarpentry/shell-genomics/issues).
+Make a suggestion or correct an error by [raising an Issue](https://github.com/carpentries-incubator/introduction-to-R-for-metagenomics/issues).
 
 ## Code of Conduct
 
