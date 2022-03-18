@@ -9,7 +9,8 @@ objectives:
 keypoints:
 - "Help `?` shows useful information about the functions you inquire."
 ---
-### Seeking help
+
+## Seeking help
 
 If you face some trouble with some function, let's say `summary()`, you can always type `?summary()`
 and a help page will be displayed with useful information for the function use. Furthermore, if you
