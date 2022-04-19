@@ -9,7 +9,8 @@ objectives:
 keypoints:
 - "Data-frames contain multiple columns with different types of data."
 ---
-### Data-frames: The power of interdisciplinarity 
+## Data-frames: The power of interdisciplinarity 
+
 Let's beggin by creating a mock data set:
 ~~~
 > musician <- data.frame(people = c("Medtner", "Radwimps", "Shakira"),
@@ -40,7 +41,7 @@ A data-frame is a collection of vectors, a list, whose components must be of the
 each vector. Whereas, a data-frame can save vectors of different data types:
 
 <a href="https://user-images.githubusercontent.com/67386612/118735756-b4595500-b806-11eb-8bd6-d189b9463eca.png">
-  <img src="https://user-images.githubusercontent.com/67386612/118735756-b4595500-b806-11eb-8bd6-d189b9463eca.png" />
+  <img src="https://user-images.githubusercontent.com/67386612/118735756-b4595500-b806-11eb-8bd6-d189b9463eca.png" alt="Dataframe shown as table with columns named: people, pieces, likes. And rows names: 1,2,3" />
 </a>
 <em>Figure 3. Structure of the created data-frame.<em/>
 
@@ -91,7 +92,7 @@ Finally, we can extract information from a specific place in our data by using t
 where the first number inside the brackets specifies the number of row, and the second the number of the column:
 
 <a href="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png">
-  <img src="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png" />
+  <img src="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png" alt="Dataframe shown as table, showing that [1,] corrseponds to row 1, [2,] to row two, [3,] to row 3, [,1] to clumn 1, [,2] to column 2, [,3] to column 3. And pinting to location [1,2] that corresponds to the number 772" />
 </a>
 <em>Figure 4. Extaction of specific data in a data-frame and a matrix.<em/>
 
@@ -117,14 +118,15 @@ We can also call for that data by calling the column by it's name
 > ## Exercise 2: 
 > 
 > Complete the lines of code to obtain the required information
+> 
 > |------------------------------+------------------------------------------------------------------------------|  
 > | **Code**                                        |     **Information required**                                     |  
 > |------------------------------+------------------------------------------------------------------------------|  
-> | > musician[-,------]                       |  Pieces composed by Shakira                                  |  
+> | > musician[____,____]                       |  Pieces composed by Shakira                                  |  
 > |------------------------------+------------------------------------------------------------------------------|  
-> | > (musician - ----)-2  | Pieces composed by all musicians if they were the double of productive (The double of their actual pieces) |   
+> | > (musician______)___2  | Pieces composed by all musicians if they were half of productive (The half of their actual pieces) |   
 > |------------------------------+------------------------------------------------------------------------------|  
-> | > musician$---- <- c(-,-,-)           | Redefine the `likes` columne to make all the musicians popular!  |  
+> | > musician$_____ <- c(_____,_____,_____)    | Redefine the `likes` column to make all the musicians popular!  |  
 > |------------------------------+------------------------------------------------------------------------------| 
 >
 >
