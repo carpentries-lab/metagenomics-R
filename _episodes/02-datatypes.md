@@ -1,5 +1,5 @@
 ---
-title: "R datatypes"
+title: "R Data Types"
 teaching: 10
 exercises: 5
 questions:
