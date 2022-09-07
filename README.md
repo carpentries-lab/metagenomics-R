@@ -5,7 +5,7 @@
 
 [![The Carpentries Lab Review Status](http://badges.carpentries-lab.org/11_status.svg)](https://github.com/carpentries-lab/reviews/issues/11)
 
-# Introduction to R for metagenomics
+# Introduction to R
 
 An introduction to the R for people working with metagenomics data. This lesson is part of the [Metagenomics Workshop](https://carpentries-incubator.github.io/metagenomics-workshop/).
 
