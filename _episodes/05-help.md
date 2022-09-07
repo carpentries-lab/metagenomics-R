@@ -1,5 +1,5 @@
 ---
-title: "Finding help on R"
+title: "Finding Help on R"
 teaching: 5
 exercises: 5
 questions:
