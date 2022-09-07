@@ -68,8 +68,8 @@ There are five types of data in RStudio:
 {: .output}
 
 ~~~
-> resultado <- "4 and 3 are not the same in Earth. In Mars maybe... "
-> typeof(resultado)
+> result <- "4 and 3 are not the same on Earth. On Mars maybe... "
+> typeof(result)
 ~~~
 {: .language-r}
 ~~~
@@ -81,8 +81,8 @@ Also, we can use `c()` command to enlist a certain number of objects that we wan
 be accomplished by enlisting them inside the parenthesis, and separe each element by a comma. Let's 
 create a vector and found out its class:
 ~~~
-> v.examp <- c("his ", "scabbard", "of", "chalcedony")
-> typeof(v.examp)
+> vector_examp <- c("his ", "scabbard", "of", "chalcedony")
+> typeof(vector_examp)
 ~~~
 {: .language-r}
 ~~~
