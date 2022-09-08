@@ -26,7 +26,7 @@ can manage. We can use the command `typeof()` to corroborate the data type of ou
 
 There are five types of data in RStudio:
 * Double
-* [Integer](https://stackoverflow.com/questions/23660094/whats-the-difference-between-integer-class-and-numeric-class-in-r#:~:text=R%20handles%20the%20differences%20between,for%20you%20in%20the%20background.&text=(Putting%20capital%20'L'%20after,a%20subset%20of%20%22numeric%22.&text=Integers%20only%20go%20to%20a,numerics%20can%20be%20much%20bigger.))
+* Integer
 * Complex
 * Logical
 * Character
