@@ -9,8 +9,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > ## Getting Started
 >
 > This lesson assumes no prior experience with the tools covered in the workshop. 
-> However, learners are expected to have some familiarity with biological concepts,
-> including how a DNA sequence looks like. Participants should bring their laptops and plan to participate actively. 
+> Participants should bring their laptops and plan to participate actively. 
 >
 > This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given 
 > information on how
