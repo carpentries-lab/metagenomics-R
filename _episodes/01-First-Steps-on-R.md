@@ -57,11 +57,12 @@ going to create, and visualize our plots.
 
 Here is what you may look at the first time you open RStudio:
 
-<a href="{{ page.root }}/fig/Welcome_R.png">
-  <img src="{{ page.root }}/fig/Welcome_R.png" alt="Table containing the 
-  taxonomic information of each of the OTUs inside the three samples. Here, 
-  we can see how only the Phylum column has information, leaving the other 
-  taxonomic levels blank." />
+<a href="{{ page.root }}/fig/Welcome_R.png" >
+  <img src="{{ page.root }}/fig/Welcome_R.png" alt="A graphic interphase window with three panels.
+On the left side, the console with a welcome message from Rstudio with
+the version and the prompt ready to receive commands.
+On the right side there are two panels. A the top, the global environment 
+section is empty. At the bottom, the third panel shows the empty Plot tab."  width="300" height="214" />
 </a>
 
 <em> Figure 1. RStudio interface screenshot. The three windows that appear on the screen provide us with a space in which we can see our console (left side window) where the orders we want to execute are written, observe the generated variables (upper right), and a series of subtabs (lower right): **Files** shows us files that we have used, **Plots** shows us graphics that we are generating, **Packages** shows the packages that we have downloaded, **Help** it gives us the information of packages, commands and/or functions that we do not know, but works only with internet conection, and **Viewer** shows a results preview in R markdown files.</em>
@@ -70,10 +71,11 @@ If we click in the option `File`/`New File`/`R Script`, we open up a script and
 we get what we can call a _RStudio nautical chart_
 
 <a href="{{ page.root }}/fig/Welcome_Rscript.png">
-  <img src="{{ page.root }}/fig/Welcome_Rscript.png" alt="Table containing the 
-  taxonomic information of each of the OTUs inside the three samples. Here, 
-  we can see how only the Phylum column has information, leaving the other 
-  taxonomic levels blank." />
+  <img src="{{ page.root }}/fig/Welcome_Rscript.png" alt="
+A graphic interphase window with four pannels.
+A the top left, a new panel with an R script called \"Untitled1\" 
+is added from the previous image, 
+so now there are four panels inside the Rstudio graphic interphase window" />
 </a>
 
 <em> Figure 2. RStudio interface screenshot. Clockwise from top left: Empty script, Environment/History/Connections/Tutorial, Files/Plots/Packages/Help/Viewer, Console/Terminal/Jobs. <em/>
