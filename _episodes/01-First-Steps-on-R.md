@@ -57,8 +57,11 @@ going to create, and visualize our plots.
 
 Here is what you may look at the first time you open RStudio:
 
-<a href="https://user-images.githubusercontent.com/67386612/118720027-ba433c00-b7ee-11eb-87e5-7496fde5763e.png">
-  <img src="https://user-images.githubusercontent.com/67386612/118720027-ba433c00-b7ee-11eb-87e5-7496fde5763e.png" alt="Screenshot of RStudio"/>
+<a href="{{ page.root }}/fig/Welcome_R.png">
+  <img src="{{ page.root }}/fig/Welcome_R.png" alt="Table containing the 
+  taxonomic information of each of the OTUs inside the three samples. Here, 
+  we can see how only the Phylum column has information, leaving the other 
+  taxonomic levels blank." />
 </a>
 
 <em> Figure 1. RStudio interface screenshot. The three windows that appear on the screen provide us with a space in which we can see our console (left side window) where the orders we want to execute are written, observe the generated variables (upper right), and a series of subtabs (lower right): **Files** shows us files that we have used, **Plots** shows us graphics that we are generating, **Packages** shows the packages that we have downloaded, **Help** it gives us the information of packages, commands and/or functions that we do not know, but works only with internet conection, and **Viewer** shows a results preview in R markdown files.</em>
@@ -66,8 +69,11 @@ Here is what you may look at the first time you open RStudio:
 If we click in the option `File`/`New File`/`R Script`, we open up a script and
 we get what we can call a _RStudio nautical chart_
 
-<a href="https://user-images.githubusercontent.com/67386612/112203976-c046e300-8bd8-11eb-9ee6-72c95f9134f3.png">
-  <img src="https://user-images.githubusercontent.com/67386612/112203976-c046e300-8bd8-11eb-9ee6-72c95f9134f3.png" alt="Screenshot of RStudio with a new opened script in the upper left"/>
+<a href="{{ page.root }}/fig/Welcome_Rscript.png">
+  <img src="{{ page.root }}/fig/Welcome_Rscript.png" alt="Table containing the 
+  taxonomic information of each of the OTUs inside the three samples. Here, 
+  we can see how only the Phylum column has information, leaving the other 
+  taxonomic levels blank." />
 </a>
 
 <em> Figure 2. RStudio interface screenshot. Clockwise from top left: Empty script, Environment/History/Connections/Tutorial, Files/Plots/Packages/Help/Viewer, Console/Terminal/Jobs. <em/>
