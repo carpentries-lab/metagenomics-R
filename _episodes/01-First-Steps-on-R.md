@@ -82,7 +82,7 @@ we get what we can call a _RStudio nautical chart_
 <a href="{{ page.root }}/fig/Welcome_Rscript.png">
   <img src="{{ page.root }}/fig/Welcome_Rscript.png" alt="
 A graphic interphase window with four pannels.
-A the top left, a new panel with an R script called \"Untitled1\" 
+A the top left, a new panel with an R script called *Untitled1* 
 is added from the previous image, 
 so now there are four panels inside the Rstudio graphic interphase window" />
 </a>
