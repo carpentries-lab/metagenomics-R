@@ -62,7 +62,7 @@ Here is what you may look at the first time you open RStudio:
 On the left side, the console with a welcome message from Rstudio with
 the version and the prompt ready to receive commands.
 On the right side there are two panels. A the top, the global environment 
-section is empty. At the bottom, the third panel shows the empty Plot tab."  width="300" height="214" />
+section is empty. At the bottom, the third panel shows the empty Plot tab."  width=50% height=50% />
 </a>
 
 
@@ -87,15 +87,12 @@ is added from the previous image,
 so now there are four panels inside the Rstudio graphic interphase window" />
 </a>
 
-RStudio interface screenshot. Clockwise from top left: Empty script, 
-Environment/History/Connections/Tutorial, Files/Plots/Packages/Help/Viewer, 
-Console/Terminal/Jobs.
-
-You can enter your online RStudio to see your own environment. Let's copy your instance address into your browser
-(Chrome or Firefox) and login into Rstudio.  
-The address should look like:  `http://ec2-3-235-238-92.compute-1.amazonaws.com:8787/`  
-
-Although data are already stored in your instance, in case you need to you can donwload them [here](https://drive.google.com/file/d/15dW1sQCIhtmCUvS0IUOMPBH5m1gqNB0m/view?usp=sharing).
+RStudio interface with a new panel is shown. Clockwise from top left: Empty script,
+Environment/History/Connections/Tutorial, Files/Plots/Packages/Help/Viewer,
+Console/Terminal/Jobs. You can enter your online RStudio to see your own environment.
+Let's copy your instance address into your browser (Chrome or Firefox) and login into Rstudio. 
+The address should look like:  `http://ec2-3-235-238-92.compute-1.amazonaws.com:8787/` Although 
+data are already stored in your instance, in case you need to you can donwload them [here](https://drive.google.com/file/d/15dW1sQCIhtmCUvS0IUOMPBH5m1gqNB0m/view?usp=sharing).
 
 ### Review of the setup
 
