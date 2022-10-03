@@ -10,8 +10,7 @@ keypoints:
 - "Data-frames contain multiple columns with different types of data."
 ---
 ## Data-frames: The power of interdisciplinarity 
-
-Let's beggin by creating a mock data set:
+Data-frames are the powerful data structures in R. Let's beggin by creating a mock data set:
 ~~~
 > musician <- data.frame(people = c("Medtner", "Radwimps", "Shakira"),
 						 pieces = c(722,187,68),
