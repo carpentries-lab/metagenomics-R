@@ -62,7 +62,7 @@ Here is what you may look at the first time you open RStudio:
 On the left side, the console with a welcome message from Rstudio with
 the version and the prompt ready to receive commands.
 On the right side there are two panels. A the top, the global environment 
-section is empty. At the bottom, the third panel shows the empty Plot tab."  width=50% height=50% />
+section is empty. At the bottom, the third panel shows the empty Plot tab."  width="50%" height="50%" />
 </a>
 
 
