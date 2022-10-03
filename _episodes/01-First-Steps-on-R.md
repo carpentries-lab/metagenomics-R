@@ -15,7 +15,7 @@ objectives:
 
 keypoints:
 - "R is a programming language"
-- "RStudio is useful tool for script writting and data-management."
+- "RStudio is a useful tool for script writting and data-management."
 - "A variable can temporarily store data."
 ---
 
