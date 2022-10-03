@@ -84,7 +84,7 @@ we get what we can call a _RStudio nautical chart_
 A graphic interphase window with four pannels.
 A the top left, a new panel with an R script called *Untitled1* 
 is added from the previous image, 
-so now there are four panels inside the Rstudio graphic interphase window" />
+so now there are four panels inside the Rstudio graphic interphase window"  width="80%" height="55%"/>
 </a>
 
 RStudio interface with a new panel is shown. Clockwise from top left: Empty script,
