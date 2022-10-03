@@ -77,12 +77,17 @@ There are five types of data in RStudio:
 ~~~
 {: .output}
 
-Also, we can use `c()` command to enlist a certain number of objects that we want to use. This can
-be accomplished by enlisting them inside the parenthesis, and separe each element by a comma. Let's 
-create a vector and found out its class:
+No matter how complicated our analysis can become, all data in R will be allocated as one of this
+five data types. On their own, data types are important because we want to know "who is who, and 
+what is what". But this concept will help us learn one of the most powerful tools in R, which is 
+the manipulation of different types of data at the same time in a data-frame.
+
+## Data structures
+
+Besides the data types, there are different ways of organizing the data in R called *data structures*. The basic data structure is the *vector*, which is a sequence of data of the same type. We can create a vector with the function `c()`.
 ~~~
-> vector_examp <- c("his ", "scabbard", "of", "chalcedony")
-> typeof(vector_examp)
+> char_vector <- c("a", "a", "b", "b", "c", "c")
+> typeof(char_vector)
 ~~~
 {: .language-r}
 ~~~
@@ -90,12 +95,42 @@ create a vector and found out its class:
 ~~~
 {: .output}
 
-No matter how complicated our analysis can become, all data in R will be allocated as one of this
-five data types. On their own, data types are important because we want to know "who is who, and 
-what is what". But this concept will help us learn one of the most powerful tools in R, which is 
-the manipulation of different types of data at the same time in a data-frame.
+A more complex data structure is the factor, which holds names of categories (called levels) and a sequence of the occurrences of those categories.
+Here we can see the factor itself:
+~~~
+> char_factor <- as.factor(char_vector)
+> char_factor
+~~~
+{: .language-r}
+~~~
+[1] a a b b c c
+Levels: a b c
+~~~
+{: .output}
 
-> ## Exercise 1: 
+And here, we can ask what the structure of the object is.
+~~~
+> str(char_factor)
+~~~
+{: .language-r}
+~~~
+Factor w/ 3 levels "a","b","c": 1 1 2 2 3 3
+~~~
+{: .output}
+
+Here you see the levels of the factor and a sequence of numbers. Each number represents a level, and this sequence holds the information about which level goes in which position. This is why if we ask for the type of the factor we will get integer.
+~~~
+> typeof(char_factor)
+~~~
+{: .language-r}
+~~~
+[1] "integer"
+~~~
+{: .output}
+
+When we are dealing with categorical data, factors are the way to go.
+
+> ## Exercise 1: Types and structures fo data
 > 
 > Which type of data are in each of the next three vectors?:
 > 
@@ -126,3 +161,4 @@ the manipulation of different types of data at the same time in a data-frame.
 >> complex numbers.
 > {: .solution}
 {: .challenge} 
+
