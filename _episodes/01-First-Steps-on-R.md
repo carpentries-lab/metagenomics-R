@@ -58,15 +58,11 @@ going to create, and visualize our plots.
 Here is what you may look at the first time you open RStudio:
 
 <a href="{{ page.root }}/fig/Welcome_R.png" >
-  <img src="{{ page.root }}/fig/Welcome_R.png" alt="A graphic interphase window with three panels.
-On the left side, the console with a welcome message from Rstudio with
-the version and the prompt ready to receive commands.
-On the right side there are two panels. A the top, the global environment 
-section is empty. At the bottom, the third panel shows the empty Plot tab."  width="80%" height="55%" />
+  <img src="{{ page.root }}/fig/Welcome_R.png" alt="RStudio graphic interface described bellow."  width="80%" height="55%" />
 </a>
 
 
-In the figure is is shown the RStudio interface. The three windows that appear 
+In the figure is shown the RStudio interface. The three windows that appear 
 on the screen provide us with a space in which we can see our console
 (left side window) where the orders we want to execute are written, observe 
 the generated variables (upper right), and a series of subtabs (lower right): 
