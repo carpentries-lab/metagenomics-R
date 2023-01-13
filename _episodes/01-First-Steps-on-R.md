@@ -3,7 +3,7 @@ title: "First Steps on R"
 teaching: 10
 exercises: 10
 questions:
-- "What is R and why is it important to learn it?"
+- "What is R, and why is important to learn to use it?"
 - "What types of data does the R language has?"
 
 objectives:
@@ -15,31 +15,30 @@ objectives:
 
 keypoints:
 - "R is a programming language"
-- "RStudio is a useful tool for script writting and data-management."
+- "RStudio is a useful tool for script writing and data-management."
 - "A variable can temporarily store data."
 ---
 
 
 *It takes courage to sail in uncharted waters*
   -Snoopy
- 
+
 ## RStudio setup 
 
-### What is R and what can it be used for?
+### What is R, and what can it be used for?
 
-"R" is used to refer to a programming language and the 
+"R" is used to name a programming language and the 
 software that reads and interprets the instructions written on the 
-scripts of this language. It is specialized on statistical 
-computing and graphics. RStudio is the most popular program to write
-scripts and interact with the R software.
+scripts of this language. Is specialized in statistical 
+computing and graphics. RStudio is the most popular program for script writing and interaction with R software.
 
-R uses a series of written commands, that is great, believe us! 
-When you rely on clicking, pointing, and remembering where and 
+R uses a series of written commands, which is great, believe us! 
+If you rely on clicking, pointing, and remembering where and 
 why to point here or click there, mistakes are prone to occur. 
 Moreover, if you manage to get more data, it is easier to just
 *re-run* your script to obtain results. Also, working with scripts 
 makes the steps you follow for your analysis clear and shareable. 
-Here are some of the advantages for working with R:  
+Here are some of the advantages of working with R:  
 
 - R code is reproducible
 - R produces high-quality graphics
@@ -62,22 +61,22 @@ Here is what you may look at the first time you open RStudio:
 </a>
 
 
-In the figure is shown the RStudio interface. The three windows that appear 
+The figure shows the RStudio interface. The three windows that appear 
 on the screen provide us with a space in which we can see our console
 (left side window) where the orders we want to execute are written, observe 
 the generated variables (upper right), and a series of subtabs (lower right): 
 **Files** shows us files that we have used, **Plots** shows us graphics that we 
 are generating, **Packages** shows the packages that we have downloaded, **Help** 
-it gives us the information of packages, commands and/or functions that we do not 
-know, but works only with internet conection, and **Viewer** shows a results 
+it gives us information on packages, commands, and/or functions that we do not 
+know, but works only with an internet connection, and **Viewer** shows a results 
 preview in R markdown files.
 
-If we click in the option `File`/`New File`/`R Script`, we open up a script and
-we get what we can call a _RStudio nautical chart_
+If we click on the option `File`/`New File`/`R Script`, we open up a script and
+we get what we can call an _RStudio nautical chart_
 
 <a href="{{ page.root }}/fig/Welcome_Rscript.png">
   <img src="{{ page.root }}/fig/Welcome_Rscript.png" alt="
-A graphic interphase window with four pannels.
+A graphic interphase window with four panels.
 A the top left, a new panel with an R script called *Untitled1* 
 is added from the previous image, 
 so now there are four panels inside the Rstudio graphic interphase window"  width="80%" height="55%"/>
@@ -85,10 +84,10 @@ so now there are four panels inside the Rstudio graphic interphase window"  widt
 
 RStudio interface with a new panel is shown. Clockwise from top left: Empty script,
 Environment/History/Connections/Tutorial, Files/Plots/Packages/Help/Viewer,
-Console/Terminal/Jobs. You can enter your online RStudio to see your own environment.
+Console/Terminal/Jobs. You can enter your online RStudio to see your environment.
 Let's copy your instance address into your browser (Chrome or Firefox) and login into Rstudio. 
-The address should look like:  `http://ec2-3-235-238-92.compute-1.amazonaws.com:8787/` Although 
-data are already stored in your instance, in case you need to you can donwload them [here](https://drive.google.com/file/d/15dW1sQCIhtmCUvS0IUOMPBH5m1gqNB0m/view?usp=sharing).
+The address should look like this:  `http://ec2-3-235-238-92.compute-1.amazonaws.com:8787/` Although 
+data are already stored in your instance, in case you need to you can download them [here](https://drive.google.com/file/d/15dW1sQCIhtmCUvS0IUOMPBH5m1gqNB0m/view?usp=sharing).
 
 ### Review of the setup
 
@@ -99,9 +98,9 @@ If your working directory is not what you expected(*i.e. ~/dc_workshop/taxonomy/
 gear icon:
 <a href="https://user-images.githubusercontent.com/67386612/118722611-f7f59400-b7f1-11eb-8ca9-a72561f9c529.png">
   <img src="https://user-images.githubusercontent.com/67386612/118722611-f7f59400-b7f1-11eb-8ca9-a72561f9c529.png" alt="settings icon" />
-</a> on the `Files` tab, and pick the option _Set As Working Directory_. Alternatively, you can use the `setwd()` command for changing it.
+</a> on the `Files` tab, pick the option _Set As Working Directory_. Alternatively, you can use the `setwd()` command for changing it.
 
-Let's use this commands to set our working directoiry where we have stored our files from the previous 
+Let's use these commands to set our working directory where we have stored our files from the previous 
 lessons:
 
 ~~~
@@ -115,13 +114,13 @@ There are two main paths to interact with R in RStudio:
 * Using the console.
 * Creating and editing script files.
 
-The console is where commands can be typed and executed immediately and where the 
-results from executed commands will be shown (like in the Unix shell). If R is ready to accept commands, the R console shows
+The console is where commands can be typed and executed immediately, and where the 
+results from executed commands will be displayed (like in the Unix shell). If R is ready to accept commands, the R console shows
 the `>` prompt. You can type instructions directly into the console and press "Enter", but they will 
 be forgotten when you close the session.
 
 For example, let's do some math and save it in R objects. We can store values in variables by
-ussing the assignment operator `<-`:
+using the assignment operator `<-`:
 ~~~ 
 > 4+3
 > addition <- 4+3
@@ -131,18 +130,18 @@ ussing the assignment operator `<-`:
 ~~~
 {: .language-r}
 
-What would happend if you tap `ctrl` + `l`? Without the lesson page, can you remember what numbers the sum is made of in the variable `addition`?.
+What would happen if you tap `ctrl` + `l`? Without the lesson page, can you remember what numbers the sum is made of in the variable `addition`?
 **Reproducibility** is in our minds when we program (and when we do science). For this purpose, 
 is convenient to type the commands we want to save in the script editor, and save the script periodically. 
 We can run our code lines in the script by the shortcut `ctrl` + `Enter` 
-(on Mac, `Cmd` + `Return` will work). Thus, the command on the current line, or the instructions
+(on Mac, `Cmd` + `Return` will work). Thus, the command on the current line or the instructions
 in the currently selected text will be sent to the console and will be executed.
 
 Time can be the enemy or ally of memory. We want to be sure to remember why we wrote the commands
-in our scripts, so we can leave comments(lines of no executable text) by beggining a line with `#`:
+in our scripts, so we can leave comments(lines of no executable text) by beginning a line with `#`:
 ~~~
 # Let's do some math in RStudio. How many times a year do the supermarkets change the bread that they use for
-# display?, if they change it every 15 days:
+# display? if they change it every 15 days:
 > 365/15
 ~~~
 {: .language-r}
