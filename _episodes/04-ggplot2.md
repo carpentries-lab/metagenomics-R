@@ -3,7 +3,7 @@ title: "Making Graphs with ggplot2"
 teaching: 15
 exercises: 10
 questions:
-- "How can I create beautiful graphs in R?"
+- "How can I create useful graphs in R?"
 objectives:
 - "Create figures using ggplot2."
 - "Install and use libraries in R."
@@ -16,8 +16,8 @@ math: true
 
 ## R Libraries
 
-Until now we have used the basic functions included in the R language. But R has the possibility of using groups of functions for special purposes, which are called packages or libraries.  A *package* is a family of code units (functions, classes, variables) that 
-implement a set of related tasks. Installing a package is like buying a new piece of lab equipment, and loading a package is like getting a piece of lab equipment out of a storage locker and setting it up in the working space. Packages provide additional functionality to the basic R code, much like a new piece 
+Until now, we have used the basal functions included in the R language. But, R can use groups of functions for diverse purposes. These are called packages or libraries. A *package* is a family of code units (functions, classes, variables) that 
+implement a set of related tasks. Installing a package is like buying a new piece of lab equipment. Loading a package is like getting that piece of lab equipment out of a storage locker and setting it up in the working space. Packages provide additional functionality to the basic R code, much like a new piece 
 of equipment adds functionality to a lab space. R has its own [base plotting system](https://www.statmethods.net/graphs/index.html), but we will use a package that will help us to create more artistic figures:[ggplot2](https://www.statmethods.net/advgraphs/ggplot2.html).
 
 Let's install the ggplot2 library.
@@ -26,7 +26,7 @@ Let's install the ggplot2 library.
 ~~~
 {: .language-r}
 
-Now that it is installed we have to load it. It is a good practice to load all the libraries that you will use in a script at the beginning of the script.
+Now that it is installed we have to load it. It is a good practice to load all the libraries that you will use in a script at the beginning of that script.
 ~~~
 library(ggplot2)
 ~~~
@@ -71,12 +71,12 @@ First, let's try to make a figure only with the data and coordinates components,
 Unraveling the above code. We first called the `ggplot` function (*i.e. ggplot()*). This will tell R that we want to 
 create a new plot, and the parameters indicated inside this function will apply to all the layers of the plot. We 
 gave two arguments to the `ggplot` code: (i) the data that we want to show in our figure (*i.e. data = musician*),
- and (ii) the way of displaying it in the graph (*i.e. mapping = aes(x = people,y = pieces)*),
+ and (ii) the way of displaying it in the graph (*i.e.* mapping = aes(x = people,y = pieces)),
 which will tell `ggplot` how the variables will be mapped in the figure. In this case, **x** is the name of the 
-people, and **y** is the number of pieces each of them has composed. It is noticeable that we did not need to express the entire path to access
-this columns to the `aes` function (*i.e.* x = musician[,"people"]). That is because the code is so well 
-written that it figures it out by itself. With this, we have made the base of our plot, but we can't see the data 
-because we have not chosen a graphic way of representing it (the *geoms*).
+musicians, and **y** is the number of pieces each of them composed. It is noticeable that we did not need to express the entire path to access
+these columns to the `aes` function (*i.e.* x = musician[,"people"]). That is because the code is so well 
+written that figures it out by itself. With this, we have made the base of our plot, but we can't see the data 
+because we have not chosen a graphic way of representing it (_i.e._ the *geoms*).
 
 ~~~
 > ggplot(data= musician,
@@ -90,8 +90,8 @@ because we have not chosen a graphic way of representing it (the *geoms*).
 </a>
 <em> Figure 2. Bar plot of the pieces composed by each musician. <em/>
 
-Some elements of the graphs can be informative or merely decorative. If we want it to be informative it needs to go 
-inside the `aes()` function and say what information it will display, and if we want it to be decorative it must be outside of `aes()`.
+Some elements of the graphs can be informative or merely decorative. If we want it to be informative, it needs to go 
+inside the `aes()` function and say what information it will display. If we want it to be decorative it must be outside of `aes()`.
 Let's see how this work with the color.
 
 ~~~
