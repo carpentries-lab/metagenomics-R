@@ -3,14 +3,14 @@ title: "Data Frame Manipulation"
 teaching: 10
 exercises: 10
 questions:
-- "Data-frames. What they are and how to manage them? "
+- "Data-frames. What are they, and how to manage them? "
 objectives:
-- "Understand what is a data-frame and manipulate it."
+- "Understand what is a data-frame and learn to manipulate it."
 keypoints:
 - "Data-frames contain multiple columns with different types of data."
 ---
 ## Data-frames: The power of interdisciplinarity 
-Data-frames are the powerful data structures in R. Let's beggin by creating a mock data set:
+Data-frames are the powerful data structures in R. Let's begin by creating a mock data set:
 ~~~
 > musician <- data.frame(people = c("Medtner", "Radwimps", "Shakira"),
 						 pieces = c(722,187,68),
@@ -27,7 +27,7 @@ The content of our new object:
 ~~~
 {: .output}
 
-We have just created our first data-frame. We can see if this is true by the `class()` command:
+We have just created our first data-frame. We can see if this is true using the `class()` command:
 ~~~
 > class(musician)
 ~~~
@@ -36,15 +36,15 @@ We have just created our first data-frame. We can see if this is true by the `cl
 [1] "data.frame"
 ~~~
 {: .language-r}
-A data-frame is a collection of vectors, a list, whose components must be of the same data type within
-each vector. Whereas, a data-frame can save vectors of different data types:
+A data-frame is a collection of vectors (_i.e._ a list) whose components must be of the same data type within
+each vector:
 
 <a href="https://user-images.githubusercontent.com/67386612/118735756-b4595500-b806-11eb-8bd6-d189b9463eca.png">
   <img src="https://user-images.githubusercontent.com/67386612/118735756-b4595500-b806-11eb-8bd6-d189b9463eca.png" alt="Dataframe shown as table with columns named: people, pieces, likes. And rows names: 1,2,3" />
 </a>
 <em>Figure 3. Structure of the created data-frame.<em/>
 
-We can begin to explore our new object by pulling out columns by the `$` operator. In order to use it, 
+We can begin to explore our new object by pulling out columns using the `$` operator. In order to use it, 
 you need to write the name of your data-frame, followed by the `$` operator and the name of the column 
 you want to extract:
 ~~~
@@ -56,7 +56,7 @@ you want to extract:
 ~~~
 {: .output}
 
-We can do operations with our columns 
+We can do operations with the columns:
 ~~~
 > musician$pieces + 20
 ~~~
@@ -66,7 +66,7 @@ We can do operations with our columns
 ~~~
 {: .output}
 
-Moreover, we can change the data type of one of the columns. By the next code we can see if the musicians are 
+Moreover, we can change the data type of one of the columns. Using the next line of code we can see if the musicians are 
 popular or not:
 ~~~
 > typeof(musician$likes)
@@ -88,12 +88,12 @@ popular or not:
 {: .output}
 
 Finally, we can extract information from a specific place in our data by using the "matrix" nomenclature `[-,-]`,
-where the first number inside the brackets specifies the number of row, and the second the number of the column:
+where the first number inside the brackets specifies the row number, and the second the column number:
 
 <a href="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png">
   <img src="https://user-images.githubusercontent.com/67386612/119908857-2a517080-bf19-11eb-8e0f-b3da6d1dcfc0.png" alt="Dataframe shown as table, showing that [1,] corrseponds to row 1, [2,] to row two, [3,] to row 3, [,1] to clumn 1, [,2] to column 2, [,3] to column 3. And pinting to location [1,2] that corresponds to the number 772" />
 </a>
-<em>Figure 4. Extaction of specific data in a data-frame and a matrix.<em/>
+<em>Figure 4. Extraction of specific data in a data-frame and a matrix.<em/>
 
 ~~~
 > musician[1,2]  # The number of pieces that Nikolai Medtner composed
