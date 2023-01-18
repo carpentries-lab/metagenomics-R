@@ -148,7 +148,7 @@ When we are dealing with categorical data, factors are the way to go.
 >
 > D) character, integer, complex
 >
-> がんばれ! (ganbate; *good luck*):
+> がんばって! (ganbatte; *good luck*):
 >> ## Solution
 >> The correct answer is: 
 >> D) character, integer, complex.  
