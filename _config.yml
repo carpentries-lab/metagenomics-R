@@ -17,7 +17,7 @@ title: "Introduction to R"
 # Possible values: "pre-alpha", "alpha", "beta", "stable"
 life_cycle: "stable"
 
-doi: https://doi.org/10.5281/zenodo.4285900
+doi: "https://doi.org/10.5281/zenodo.7713368"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
