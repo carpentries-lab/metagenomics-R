@@ -14,7 +14,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given 
 > information on how
 > to log-in to the AMI during the workshop. Learners using these materials for self-directed study will need to set up their own
-> AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop Setup page](https://carpentries-incubator.github.io/metagenomics-workshop/setup.html).
+> AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop Setup page](https://carpentries-lab.github.io/metagenomics-workshop/setup.html).
 {: .prereq}
 
 > ## Things You Need To Know
@@ -25,4 +25,4 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 {% include links.md %}
 
 
-This is the third lesson of the [Metagenomics Workshop](https://carpentries-incubator.github.io/metagenomics-workshop/) comprised of four lessons in total. 
+This is the third lesson of the [Metagenomics Workshop](https://carpentries-lab.github.io/metagenomics-workshop/) comprised of four lessons in total. 
